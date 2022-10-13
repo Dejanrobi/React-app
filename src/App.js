@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 //we import the component by giving it a random name and then rendering it.
 // import Setup from './tutorial/1-useState/setup/5-useState-counter';
 //import Final from './tutorial/1-useState/setup/2-useState-basics';
@@ -58,20 +58,20 @@ import React from 'react';
 // import Setup from './tutorial/10-prop-types/setup/index'
 
 //REACT ROUTER
-// import Setup from './tutorial/11-react-router/final/index'
+import Setup from "./tutorial/11-react-router/final/index";
 
 //REACT ROUTER BASIC SETUP
 //import Setup from './tutorial/11-react-router/setup'
-import Setup from './tutorial/12-memo-useMemo-useCallback/setup/index'
+// import Setup from './tutorial/12-memo-useMemo-useCallback/setup/index'
 
 //Creating a React Component (started with a capital letter)
 //all the components must be rendered into a single div before rendering to the root div
 function App() {
   return (
-    <div className='container'>
+    <div className="container">
       <Setup />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
